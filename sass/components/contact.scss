@@ -1,0 +1,22 @@
+.contact{
+    background-color: #FF3366;
+    height: 400px;
+    .contact__info{
+        padding-top: 100px;
+        color: white;
+        .contact__title{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .contact__desc{
+            p{
+                margin-left: .5rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    .img__app{
+        top: -40px;
+        right: 60px;
+    }
+}

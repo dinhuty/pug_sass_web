@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+  </head>
+  <body> 
+    <header class="position-fixed">
+      <div class="container"> 
+        <div class="header-top d-flex justify-content-between align-items-center">
+          <div class="header__logo"> <img src="https://storage.googleapis.com/tripi-assets/mytour/icons/icon_logo_mytour_red_medium.svg" alt="logo"></div>
+          <div class="header__nav">
+            <ul class="d-flex justify-content-end align-items-center">
+              <li class="d-flex align-items-center d-none d-xl-block"><a href="#">Ưu đãi</a></li>
+              <li class="d-flex align-items-center d-none d-xl-block"><a href="#">Giới thiệu nhận quà</a></li>
+              <li class="d-flex align-items-center d-none d-xl-block"><a href="#">Hợp tác với chúng tôi</a></li>
+              <li class="d-flex align-items-center d-none d-xl-block"><a href="#">Khách hàng và doanh nghiệp</a></li>
+              <li>
+                <button class="fw-bold btn-login">Đăng nhập</button>
+              </li>
+              <li> 
+                <button class="fw-bold btn-logout">Đăng ký</button>
+              </li>
+              <div class="header__menu__mobile d-xl-none d-block"> <i class="fa-solid fa-bars"></i></div>
+            </ul>
+          </div>
+        </div>
+        <div class="header-bottom d-flex align-items-center">   
+          <ul class="fw-bold d-flex align-items-center"> 
+            <li>Khách sạn</li>
+            <li>Vé máy bay<span>plus</span></li>
+            <li>Nhà hàng</li>
+            <li>Thương hiệu</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="booking">
+      <div class="banner position-relative fw-bold"><img src="../../assets/image/banner1.jpg" alt="nhatrang_resort">
+        <div class="booking__box position-absolute top-50 start-50 translate-middle w-100 d-none d-xl-block mx-auto">
+          <div class="box__nav d-flex justify-content-center align-items-center">
+            <ul class="d-flex">
+              <li> <i class="fa-solid fa-house"></i><span>Khách Sạn</span></li>
+              <li><i class="fa-solid fa-plane"></i><span>Vé máy bay</span></li>
+              <li><i class="fa-solid fa-hotel"></i><span>Biệt thự</span></li>
+            </ul>
+          </div>
+          <div class="box__main d-flex justify-content-between align-items-center w-100">
+            <div class="box__main__item d-flex flex-column">
+              <label>Địa điểm </label>
+              <input class="fw-bold" type="text" placeholder="Thành phố, khách sạn, điểm đến">
+            </div>
+            <div class="box__main__item d-flex justify-content-between align-items-center">
+              <div class="item__col"><span>Ngày đến</span>
+                <p>T2, 22 tháng 7</p>
+              </div>
+              <div class="item__col"><span>1</span><i class="fa-solid fa-moon"></i></div>
+              <div class="item__col"><span>Ngày đến</span>
+                <p>T3, 25 tháng 7</p>
+              </div>
+            </div>
+            <div class="box__main__item d-flex flex-column"><span>Số phòng, số khách</span>
+              <p>1 phòng, 2 người lớn, 0 trẻ em</p>
+            </div>
+            <div class="box__main__item d-flex flex-column">
+              <button> <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flashsale">
+      <div class="container">
+        <div class="flashsale__top"><img src="/assets/image/text_flash_sale.png" alt="flashsale_text">
+          <div class="flashsale__time d-flex"> <span>Chương trình sẽ kết thúc trong</span>
+            <div class="box__time d-flex">
+              <div class="time__item d-flex align-items-center justify-content-center">08</div><span>:</span>
+              <div class="time__item d-flex align-items-center justify-content-center">22</div><span>:</span>
+              <div class="time__item d-flex align-items-center justify-content-center">23 </div>
+            </div>
+          </div>
+        </div>
+        <div class="flashsale__list">
+          <div class="row">
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Da Nang - Mikazuki Japanese</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Da Nang</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.250.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Khach san Imperial HaNoi</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Quan Hoan Kiem</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.550.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Da Nang - Mikazuki Japanese</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Da Nang</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.250.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Khach san Imperial HaNoi</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Quan Hoan Kiem</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.550.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="explore">
+      <div class="container">
+        <div class="explore__title">
+          <h1 class="fw-bold">Khách sạn giá sốc chỉ có trên Mytour</h1>
+          <p>Tiết kiệm chi phí với các khách sạn hợp tác chiến lược cùng Mytour, cam kết giá tốt nhất và chất lượng dịch vụ tốt nhất dành cho bạn.</p>
+        </div>
+        <div class="explore__muibox d-flex fw-bold">
+          <div class="muibox__item">Ha Noi</div>
+          <div class="muibox__item">Phu Quoc</div>
+          <div class="muibox__item">TP. HCM</div>
+          <div class="muibox__item">Da Nang</div>
+          <div class="muibox__item">Ha Long</div>
+          <div class="muibox__item">Quang Ninh</div>
+        </div>
+        <div class="explore__list"> 
+          <div class="row g-4">
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Da Nang - Mikazuki Japanese</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Da Nang</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.250.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Khach san Imperial HaNoi</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Quan Hoan Kiem</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.550.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Da Nang - Mikazuki Japanese</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Da Nang</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.250.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Khach san Imperial HaNoi</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Quan Hoan Kiem</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.550.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Da Nang - Mikazuki Japanese</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Da Nang</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.250.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Khach san Imperial HaNoi</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Quan Hoan Kiem</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.550.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Da Nang - Mikazuki Japanese</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Da Nang</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.250.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-xl-3">
+              <div class="card__item cursor-pointer">
+                <div class="card__item__img"> <img src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&amp;alt=media" alt="img"/></div>
+                <div class="card__item__desc"> 
+                  <div class="desc__title fw-bold">Khach san Imperial HaNoi</div>
+                  <div class="desc__rate d-flex"><img src="/assets/image/rate.png" alt="star1"/><img src="/assets/image/rate.png" alt="star2"/><img src="/assets/image/rate.png" alt="star3"/><img src="/assets/image/rate.png" alt="star4"/><img src="/assets/image/rate.png" alt="star5"/></div>
+                  <div class="desc__area"><i class="fa-solid fa-location-dot"> </i><span class="fw-bold">Quan Hoan Kiem</span></div>
+                  <div class="desc__cmt"> <i class="fa-regular fa-user"></i><span>Rất tốt (1225 đánh giá)</span></div>
+                  <div class="desc__price d-flex justify-content-end fw-bold"><span>1.550.000 VND</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="explore__btn w-100 d-flex justify-content-center fw-bold">
+          <button>Xem thêm</button>
+        </div>
+      </div>
+    </div>
+    <div class="contact position-relative">
+      <div class="container"> 
+        <div class="contact__info d-flex flex-column justify-content-center align-items center">
+          <div class="contact__title"> 
+            <h1 class="fw-bold">Tải ứng dụng tại MyTour.vn</h1>
+          </div>
+          <div class="contact__desc">
+            <ul> 
+              <li> 
+                <p>Đặt vé máy bay, khách sạn hạng sang</p>
+              </li>
+              <li class="d-flex"> <i class="fa-regular fa-square-check"></i>
+                <p>Giá tốt hơn so với đặt phòng trực tiếp tại khách sạn </p>
+              </li>
+              <li class="d-flex"> <i class="fa-regular fa-square-check"></i>
+                <p>Nhhân viên chăm sóc, tư vấn nhiều kinh nghiệm </p>
+              </li>
+              <li class="d-flex"> <i class="fa-regular fa-square-check"></i>
+                <p>Hơn 5000 khách sạn tại Việt Nam </p>
+              </li>
+              <li class="d-flex"> <i class="fa-regular fa-square-check"></i>
+                <p>Nhiều chương trình khuyến mãi và tích điểm</p>
+              </li>
+              <li class="d-flex"> <i class="fa-regular fa-square-check"></i>
+                <p>Thanh toán đa dạng dễ dàng</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="img__app position-absolute d-lg-block d-none"><img src="https://storage.googleapis.com/public-tripi/mytour-web/app_mytour_banner.png" alt=""></div>
+      </div>
+    </div>
+    <footer> 
+      <div class="container"> 
+        <div class="footer__title"> 
+          <h1 class="fw-bold">MyTour.VN </h1>
+        </div>
+        <div class="footer__contact"> 
+          <div class="row g-4">
+            <div class="col-12 col-lg-4"><span class="fw-bold">Công ty cổ phần du lịch Việt Nam VNTravel</span>
+              <p>Tổng đài chăm sóc: 1900 2083</p>
+              <p>Email: hotro@mytour.vn</p>
+              <p>Văn phòng Hà Nội: Tầng 11, Tòa Peakview, 36 Hoàng Cầu, Đống Đa</p>
+              <p>Văn phòng HCM: Tầng 3, Tòa nhà ACM, 96 Cao Thắng, Quận 3</p>
+            </div>
+            <div class="col-12 col-lg-4"><span class="fw-bold">Công ty cổ phần du lịch Việt Nam VNTravel</span>
+              <p>Tổng đài chăm sóc: 1900 2083</p>
+              <p>Email: hotro@mytour.vn</p>
+              <p>Văn phòng Hà Nội: Tầng 11, Tòa Peakview, 36 Hoàng Cầu, Đống Đa</p>
+              <p>Văn phòng HCM: Tầng 3, Tòa nhà ACM, 96 Cao Thắng, Quận 3</p>
+            </div>
+            <div class="col-12 col-lg-4"><span class="fw-bold">Công ty cổ phần du lịch Việt Nam VNTravel</span>
+              <p>Tổng đài chăm sóc: 1900 2083</p>
+              <p>Email: hotro@mytour.vn</p>
+              <p>Văn phòng Hà Nội: Tầng 11, Tòa Peakview, 36 Hoàng Cầu, Đống Đa</p>
+              <p>Văn phòng HCM: Tầng 3, Tòa nhà ACM, 96 Cao Thắng, Quận 3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+.booking{
+    .banner{
+        .booking__box{
+            max-width: 1188px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 15px;
+            .box__nav{
+                font-weight: 600;
+                border-bottom: 1px solid #EDF2F7;
+                li{
+                    padding: 1.2rem 1.5rem;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                    &:nth-child(1){
+                        color: $primary-color;
+                        border-bottom: 3px solid $primary-color;
+                    }
+                    i{
+                        margin-right: 8px;
+                    }
+                }
+            }
+            .box__main{
+                padding: 1.3rem;
+                .box__main__item{
+                    border-left: 1px solid #c8cacc;
+                    &:nth-child(3){
+                        padding-left: 1rem;
+                    }
+                }
+                label{
+                    font-size: .95rem;
+                    padding-bottom: 0.5rem;
+                    opacity: .8;
+                    font-weight: 600;
+                }
+                input{
+                    font-weight: 600;
+                }
+                .item__col{
+                    padding: 0 1.2rem;
+                    &:nth-child(2){
+                        border: 1px solid #EDF2F7;
+                        padding: .6rem;
+                        border-radius: 50%;
+                    }
+                    i{
+                        font-size: .7rem;
+                    }
+                }
+                span{
+                    font-size: .95rem;
+                    opacity: .8;
+                }
+                p{
+                    padding-top: 1rem;
+                }
+                button{
+                    @include button(#fff,$primary-bg,$primary-bg)
+                }
+            }
+        }
+    }
+}

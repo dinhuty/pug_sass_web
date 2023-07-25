@@ -1,0 +1,20 @@
+- var locations = ["Ha Noi", "Phu Quoc", "TP. HCM", "Da Nang", "Ha Long", "Quang Ninh"]
+- var items = [{title: "Da Nang - Mikazuki Japanese",area: "Da Nang",price: "1.250.000"},{title: "Khach san Imperial HaNoi",area: "Quan Hoan Kiem",price:"1.550.000"},{title: "Da Nang - Mikazuki Japanese",area: "Da Nang",price: "1.250.000"},{title: "Khach san Imperial HaNoi",area: "Quan Hoan Kiem",price:"1.550.000"},{title: "Da Nang - Mikazuki Japanese",area: "Da Nang",price: "1.250.000"},{title: "Khach san Imperial HaNoi",area: "Quan Hoan Kiem",price:"1.550.000"},{title: "Da Nang - Mikazuki Japanese",area: "Da Nang",price: "1.250.000"},{title: "Khach san Imperial HaNoi",area: "Quan Hoan Kiem",price:"1.550.000"}]
+.explore
+    .container
+        .explore__title
+            h1.fw-bold Khách sạn giá sốc chỉ có trên Mytour
+            p Tiết kiệm chi phí với các khách sạn hợp tác chiến lược cùng Mytour, cam kết giá tốt nhất và chất lượng dịch vụ tốt nhất dành cho bạn.
+        .explore__muibox.d-flex.fw-bold
+            each item in locations 
+                .muibox__item= item
+        .explore__list 
+            .row.g-4
+                each item in items
+                    .col-6.col-xl-3
+                        +card(item)
+        .explore__btn.w-100.d-flex.justify-content-center.fw-bold
+            button Xem thêm
+
+//- #FF3366
+        

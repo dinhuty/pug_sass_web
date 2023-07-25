@@ -1,0 +1,8 @@
+@mixin button($btn-color, $btn-bg, $btn-border) {
+    width: 104px;
+    height: 40px;
+    border-radius: 8px;
+    color: $btn-color;
+    background-color: $btn-bg;
+    border: 2px solid $btn-border;
+}

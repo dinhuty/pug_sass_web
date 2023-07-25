@@ -1,0 +1,34 @@
+.flashsale{
+    background-color: #FFF5F7;
+    padding-top: 2rem;
+    padding-bottom: 100px;
+    .flashsale__top{
+        padding: 1.5rem;
+        img{
+            width: 198px;
+            height: 44px;
+        }
+        .flashsale__time{
+            margin-top: 1rem;
+            .box__time{
+                margin-left: 1rem;
+                font-weight: bold;
+                .time__item{
+                    width: 22px;
+                    height: 20px;
+                    font-size: 12px;
+                    color: #fff;
+                    background-color: $primary-bg;
+                    border-radius: 3px;
+                }
+                span{
+                    margin: 0 .3rem;
+                    color:$primary-color;
+                }
+            }
+        }
+    }
+    .flashsale__list{
+    }
+    
+}

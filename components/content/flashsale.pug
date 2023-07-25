@@ -1,0 +1,20 @@
+- var items = [{title: "Da Nang - Mikazuki Japanese",area: "Da Nang",price: "1.250.000"},{title: "Khach san Imperial HaNoi",area: "Quan Hoan Kiem",price:"1.550.000"},{title: "Da Nang - Mikazuki Japanese",area: "Da Nang",price: "1.250.000"},{title: "Khach san Imperial HaNoi",area: "Quan Hoan Kiem",price:"1.550.000"}]
+   
+.flashsale
+    .container
+        .flashsale__top
+            img(src="/assets/image/text_flash_sale.png", alt="flashsale_text")
+            .flashsale__time.d-flex 
+                span Chương trình sẽ kết thúc trong
+                .box__time.d-flex
+                    .time__item.d-flex.align-items-center.justify-content-center 08
+                    span :
+                    .time__item.d-flex.align-items-center.justify-content-center 22
+                    span :
+                    .time__item.d-flex.align-items-center.justify-content-center 23 
+        .flashsale__list
+            .row
+                each item in items
+                    .col-6.col-xl-3
+                        +card(item)
+

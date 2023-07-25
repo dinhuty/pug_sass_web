@@ -1,0 +1,21 @@
+
+mixin card(item)
+    .card__item.cursor-pointer
+        .card__item__img 
+            img(src="https://img.tripi.vn/cdn-cgi/image/width=548,height=310/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FBZ1O6VKR21_%2Ftmp%2Fplaytemp8992226862162980543%2FmultipartBody8889052234719766714asTemporaryFile?generation=1595488423270831&alt=media", alt="img")
+        .card__item__desc 
+            .desc__title.fw-bold= item.title
+            .desc__rate.d-flex
+                img(src="/assets/image/rate.png", alt="star1")
+                img(src="/assets/image/rate.png", alt="star2")
+                img(src="/assets/image/rate.png", alt="star3")
+                img(src="/assets/image/rate.png", alt="star4")
+                img(src="/assets/image/rate.png", alt="star5")
+            .desc__area
+                i.fa-solid.fa-location-dot 
+                span.fw-bold= item.area
+            .desc__cmt 
+                i.fa-regular.fa-user
+                span Rất tốt (1225 đánh giá)
+            .desc__price.d-flex.justify-content-end.fw-bold
+                span= item.price + " " + "VND"
